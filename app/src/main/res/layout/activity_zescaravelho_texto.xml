@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".zEscaravelhoTexto">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/branco"
+        android:textSize="23sp"
+        android:fontFamily="@font/poppins"
+        android:text="O Escaravelho do Diabo" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/escaravelho"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/escaravelhododiabo"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Título: O Escaravelho do Diabo"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/escaravelho"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
+    <TextView
+        android:id="@+id/autor1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/escaravelho"
+        app:layout_constraintTop_toBottomOf="@id/titulo1"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Autor: Lúcia Machado de Almeida"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/resenha1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O livro, é um clássico da literatura brasileira, e tem uma narrativa intrigante sendo relatado uma onda de mortes que atingem pessoas com uma característica específica de uma cidade do estado paulista."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/escaravelho" />
+    <TextView
+        android:id="@+id/resenha2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      A história cativante tem início quando Hugo recebe um pacote contendo um besouro preto, o menino não vê importância nisto e considera ser uma besteira enviada por seus amigos querendo . Todavia, no dia seguinte o receptor do presente é encontrado com uma espada em seu peito, já sem vida. O seu irmão, Alberto fica desolado com tamanha tragédia e decide investigar o que acontecera com seu parente."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha1" />
+    <TextView
+        android:id="@+id/resenha3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Em uma de suas pesquisas, ele acha uma matéria sobre um besouro, exatamente igual àquele que Hugo havia recebido antes de morrer. O nome deste inseto se chamava 'portador de espada’. Então, Alberto continua a procura e acaba por encontrar a mesma espada em um antiquário, todavia sem pistas sobre o comprador daquele objeto."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha2" />
+    <TextView
+        android:id="@+id/resenha4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Ao descobrir uma nova pista sobre o caso, o menino aspirante a detetive, informa o Inspetor Pimentel sobre o que já sabe sobre o assassino. Começam a surgir mais vítimas na cidade, sendo:
+\n-Clarence O’Shea, filho da dona da pensão, morre envenenado por uma cápsula de cianureto;
+\n-Maria Fernanda, cantora lírica, morre em meio a uma performance de “Carmen”, de Bizet, atingida por uma seta envenenada;
+\n-Galo da Serra, um pássaro de penas vermelhas em extinção que morre estrangulado no Zoo."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha3" />
+    <TextView
+        android:id="@+id/resenha5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      A única vítima que conseguiu sobreviver foi Rachel, todavia ainda ficou com sequelas. Desde então, Alberto e Pimentel passam a trabalhar juntos a fim de resolver o caso do assassino nomeado de “inseto”, e junta-se à eles o inspetor Silva, que descobre um padrão em todas as vítimas, todos os escolhidos pelo assassino eram ruivos legítimos."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha4" />
+    <TextView
+        android:id="@+id/resenha6"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Enquanto a investigação ocorre, Alberto se apaixona por Verônica, orfã que morava em uma pensão com vários moradores. Neste momento, ocorre uma tragédia, e o Padre Afonso e o Sr Graz morrem carbonizados. Se levantam suspeitas dos moradores da pensão, e Alberto chega a desconfiar de seu par, Veronica."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha5" />
+    <TextView
+        android:id="@+id/resenha7"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Os casos ficam sem solução e somente anos depois que Alberto descobre que o assassino é Rudolf, mais conhecido como Sr. Graz. Ele era um grande estudioso e apreciador de besouros, porém passou por um grande vexame durante uma apresentação da descoberta do besouro vermelho, sendo por isso internado em um manicômio. O homem que o expôs foi um colega ruivo, chamado Hans. Sendo assim, o homem que passou a dar indícios de problemas mentais, decidiu vingar-se assassinando todos os ruivos que teve contato após fugir do manicômio."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha6" />
+    <TextView
+        android:id="@+id/resenha8"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Ao descobrir isso, Alberto volta até a cidade Vista Alegre e se arrepende por ter julgado Veronica. Os dois se reencontram e decidem viver juntos, perpetuando - se  ao ter um filho chamado Hugo, como homenagem ao irmão de Adalberto."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha7" />
+    <TextView
+        android:id="@+id/resenha9"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      A história te leva ao desejo de mergulho neste universo, e tentar desvendar o quanto antes quem é o assassino que mata os ruivos de Vista Alegre, é uma obra que vale a pena a leitura."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

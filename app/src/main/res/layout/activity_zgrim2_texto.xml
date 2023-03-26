@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".zGrim2Texto">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/branco"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppins"
+        android:text="O lobo e a Raposa" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/contos"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/contos"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Título: Conto de Fadas dos Irmãos Grimm - O Lobo e a Raposa"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/contos"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
+    <TextView
+        android:id="@+id/autor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/contos"
+        app:layout_constraintTop_toBottomOf="@id/titulo1"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Autor: Irmãos Grimm"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/resenha1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O conto fala sobre um príncipe que viajou pelo mundo somente com o seu criado. Um dia ele cavalgou pela floresta  até que escureceu e ele não tinha onde se hospedar."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contos" />
+    <TextView
+        android:id="@+id/resenha2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Ele acabou encontrando um casebre onde morava uma moça muito bonita, e  pediu a moça que deixasse que ele passasse a noite lá, ela logo responde dizendo que sua madrasta não simpatiza com estranhos e trabalha com artes maléficas, mas mesmo assim o príncipe aceita e entra no casebre. No outro dia, antes do príncipe ir embora a feiticeira oferece uma bebida em comemoração de sua partida, porém algo dá errado e o cavalo do príncipe morre. ele foge junto de seu criado e eles passam por diversas aventuras ao decorrer dessa floresta."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha1" />
+    <TextView
+        android:id="@+id/resenha3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O conto tem uma abordagem bacana e educativa, porém por alguns fatores não é recomendado ler para crianças muito pequenas."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

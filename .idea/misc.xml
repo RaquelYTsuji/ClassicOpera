@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/drawable/home.xml" value="0.1805" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/drawable/livro.xml" value="0.1645" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/drawable/menu.xml" value="0.1805" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/drawable/search_view_bg.xml" value="0.2065" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_biblioteca.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_cadastrar.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_genero.xml" value="0.22" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_isaura_texto.xml" value="0.16" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_menu.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_pesquisa.xml" value="0.1859375" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_principal.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_saiba_mais.xml" value="0.1859375" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_sobre_empresa.xml" value="0.1859375" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_user.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zcasmurro_texto.xml" value="0.1859375" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zdiario_texto.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zescaravelho_texto.xml" value="0.1859375" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zgrim1_texto.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zgrim2_texto.xml" value="0.1859375" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_ziracema_texto.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zisaura_texto.xml" value="0.22" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zmagico_texto.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zmemorias_texto.xml" value="0.25" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zmisterioso_texto.xml" value="0.1859375" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_zmoreninha_texto.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/activity_znarnia_texto.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/fragment_first.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/fragment_genero.xml" value="0.16580756013745704" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/fragment_menu.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/fragment_pesquisa.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/fragment_principal.xml" value="0.18" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/livro_exemplo.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/layout/recycler_view_row.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/raque/AndroidStudioProjects/ProjetoIntegrador/app/src/main/res/menu/top_navigation_menu.xml" value="0.15" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

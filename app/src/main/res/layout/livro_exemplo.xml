@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/azul"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:padding="4dp"
+            android:layout_gravity="left" />
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imagem"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Título"
+            android:textColor="@color/preto"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/autor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titulo"
+            android:layout_toEndOf="@+id/imagem"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/preto"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins"
+            android:text="Autor" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

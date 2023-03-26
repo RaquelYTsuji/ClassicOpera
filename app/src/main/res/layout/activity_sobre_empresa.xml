@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".SobreEmpresa">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp"
+        android:textColor="@color/branco"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins"
+        android:text="Sobre a Empresa" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="Pierre Company, oferece uma plataforma para ajudar alunos e leitores a entender obras clássicas, importantes para a compreensão da sociedade. " />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto1"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="--> História
+        \nSendo compostas por desenvolvedores, alunos do Ensino Médio integrado ao Técnico de Informática do IFSP, a Pierry Company foi criada com intuito de concluir um trabalho anual da matéria."/>
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="--> Visão
+        \nA Pierry Company tem como visão alcançar o inalcançável. Pretende ter todo o sucesso na área da tecnologia e principalmente no âmbito educacional e de leitura. "/>
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto3"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="--> Missão
+        \nA Pierry Company tem como objetivo oferecer produtos de qualidade e no âmbito acadêmico."/>
+
+    <TextView
+        android:id="@+id/texto5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/texto4"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="--> Valores
+        \n• Evoluir na ética dentro da organização;
+        \n• Amor e dedicação ao trabalho;
+        \n• Transparência;
+        \n• Melhoria contínua: gestão da qualidade;
+        \n• Integridade."/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

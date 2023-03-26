@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".zIracemaTexto">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/branco"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppins"
+        android:text="Iracema" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/iracema"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/iracema"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Título: Iracema"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/iracema"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
+    <TextView
+        android:id="@+id/autor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/iracema"
+        app:layout_constraintTop_toBottomOf="@id/titulo1"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Autor: José de Alencar"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/resenha1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O livro, obra mais conhecida da literatura romântica escrita por José de Alencar, se trata de um representativo da geração indianista. É narrado a história de um amor bem improvável entre uma índia e um colonizador europeu. "
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iracema" />
+    <TextView
+        android:id="@+id/resenha2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      A história inicia -se com o personagem Marfim, portugues que fora designado para proteger o Brasil de outros invasores que tentavam tirar o território dos portugueses, perdido na mata no atual estado cearense. A índia tabajara, iracema, estava descansando sobre as árvores quando leva um susto ao vê-lo e dispara uma flecha contra o europeu. Este não reage pois fora agredido por uma mulher, e iracema ao perceber essa atitude considera que havia ferido um homem inocente. "
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha1" />
+    <TextView
+        android:id="@+id/resenha3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Como uma forma de trégua, a índia o leva até a sua aldeia para seu pai, Araquém, o pajé da tribo. Todos recebem o estrangeiro muito bem , exceto Irapuã, um guerreiro apaixonado por Iracema. Durante o período de recuperação, Martim e Iracema se tornam próximos e passam a construir uma forte atração entre os dois. Todavia, iracema tem um papel importante função na tribo que consiste em ser uma virgem consagrada a Tupã, guardadora do segredo da jurema, um licor sagrado, que levava ao êxtase os índios tabajaras."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha2" />
+    <TextView
+        android:id="@+id/resenha4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Entre acontecimentos marcantes, Iracema se envolve com o portugues e quebra o voto de castidade, condenando à morte, e Martim passa a ser perseguido pela tribo. Desta forma, o casal tem que fugir da aldeia antes que percebam que a virgem descumpriu sua promessa. Aliam-se à tribo pitiguara, onde Marfim tem um grande amigo, o Potí."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha3" />
+    <TextView
+        android:id="@+id/resenha5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Ao notarem a fuga, o irmão de Iracema e Irapua travam uma sangrenta batalha, onde os tabajaras ferem o estrangeiro gravemente, e Iracema retruca avançado sobre sua antiga tribo. Os tabajaras se retiram, prevendo uma inevitável derrota."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha4" />
+    <TextView
+        android:id="@+id/resenha6"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O casal se esconde em uma praia deserta, onde Iracema descobre estar grávida, mas infelizmente Martim precisa ir ajudar Poti, em uma guerra à tribo pitiguara. A índia acaba por dar a luz ao filho sozinha, e o nomeia de Moacir. Infelizmente, a mãe está muito debilitada e logo após entregar a criança ao pai, acabou falecendo."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha5" />
+    <TextView
+        android:id="@+id/resenha7"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      É um livro um tanto quanto emocionante e fantástico, é uma clara demonstração do incrível e importante escritor que José de Alencar representou para a literatura brasileira e romântica."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

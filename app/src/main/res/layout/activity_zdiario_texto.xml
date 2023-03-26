@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".zDiarioTexto">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/branco"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppins"
+        android:text="O Diário de Anne Frank" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/diario"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/diarioannefrank"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Título: O Diário de Anne Frank"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/diario"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
+    <TextView
+        android:id="@+id/autor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/diario"
+        app:layout_constraintTop_toBottomOf="@id/titulo1"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Autor: Anne Frank"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/resenha1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O Diário de Anne Frank foi composto pela então adolescente Anne Frank no período da Segunda Guerra Mundial. Ela era uma menina judia que vivia com seu pai Otto, sua mãe Edith e sua irmã Margot. Anne decide escrever sobre sua vida ao ganhar um diário aos 13 anos, narrando a fuga e rotina como refugiados em um esconderijo que chamaram de Anexo Secreto."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/diario" />
+    <TextView
+        android:id="@+id/resenha2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      A família de Van Dan e o dentista Dussel eram refugiados no Anexo Secreto juntos à família de Anne. Assim, eles tentavam sobreviver em harmonia e tomando todas as precauções para não serem vistos."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha1" />
+    <TextView
+        android:id="@+id/resenha3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Anne inscreve em seu diário tudo o que se passa no cotidiano dos fugitivos durante dois anos, quando oficiais da Gestapo descobrem o esconderijo e conduzem os refugiados para diversos campos de concentração. Assim, Otto Heinrich Frank recebe o diário da filha e, como é o único sobrevivente do Anexo Secreto, publica os textos de Anne, realizando finalmente seu sonho."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha2" />
+    <TextView
+        android:id="@+id/resenha4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      “O Diário de Anne Frank” é considerado um dos livros mais importantes da história, contando sem romantismo os acontecimentos do Holocausto. Ele nos faz repensar sobre a vida, a família e as nossas reclamações triviais ao conhecer a história de Anne Frank."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

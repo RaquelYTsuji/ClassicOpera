@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338627257571",
+    "project_id": "classic-opera",
+    "storage_bucket": "classic-opera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338627257571:android:4165481ae7c2e5fd7a91d6",
+        "android_client_info": {
+          "package_name": "com.raquel.projetointegrador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338627257571-9ojfmsa948cerlk66f2pu4g4pr5aea15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN1wVzYghbDbnwW_9vCumFXcGQwPP6vJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338627257571-9ojfmsa948cerlk66f2pu4g4pr5aea15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

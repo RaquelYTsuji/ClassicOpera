@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".zCasmurroTexto">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/branco"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppins"
+        android:text="Dom Casmurro" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/domcasmurro"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/domcasmurro"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Título: Dom Casmurro"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/domcasmurro"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
+    <TextView
+        android:id="@+id/autor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/domcasmurro"
+        app:layout_constraintTop_toBottomOf="@id/titulo1"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Autor: Machado de Assis"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/resenha1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O livro, parte da escola literária realismo, começa com a nomeação que Bento Santiago recebeu de um poeta que tentou ler para ele no trem, todavia, Bento acabou cochilando enquanto o jovem moço recitava seus poemas, irritando este e nomeando-o Dom Casmurro."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/domcasmurro" />
+    <TextView
+        android:id="@+id/resenha2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O homem de 60 anos se empenha em relatar a história de sua vida, enfatizando a sua juventude, espaço- tempo onde ocorre seu relacionamento com Capitu. Pela forma como expressa suas palavras e pensamentos se faz notório seu teor jurídico, vendo que o mesmo era formado em Direito."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha1" />
+    <TextView
+        android:id="@+id/resenha3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Um dos primeiros pontos altos do livro é a conversa entre José Dias e dona Glória, em que ela afirmava sobre suas intenções de mandar Bento ao seminário, já que esta havia feito uma promessa pouco antes de seu nascimento, que se o segundo filho fosse homem, então este seria padre. Todavia, Bentinho estava gostando de Capitu, e esta ao descobrir sobre os sentimentos e os planos de Dona Glória para levá lo ao seminário, tenta fazer de tudo para evitar sua ida. Infelizmente, ele vai ao seminário, mas antes sela a promessa de que se casaria com Capitu dando lhe um beijo."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha2" />
+    <TextView
+        android:id="@+id/resenha4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      É neste momento que Bentinho faz um grande amigo, Ezequiel Escobar. Se tornam tão amigos que Esnobar o acompanha em uma das visitas a família, e acaba por conhecer Capitu. Enquanto Bentinho está fora estudando, Capitu se torna uma grande amiga de dona Glória, que passa a enxergar a relação do filho com a garota com algo benéfico e agradável. Justamente por isso que a mãe do personagem principal entra em desespero, pois apoia a relação dos filhos e quer vê-los juntos, mas esta havia feito uma promessa. Desta forma, Escobar consegue pensar em uma solução, enviar um escravo no lugar de bentinho, pois a promessa não foi feita especificamente para bentinho."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha3" />
+    <TextView
+        android:id="@+id/resenha5"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      O filho parte para São Paulo para estudar direito, e logo após concluir seus estudos ocorre o tão aguardado casamento entre Capitu e Bento. Escobar também não fica para trás e casa-se com Sancha, tendo uma linda menina chamada Capitolina, forma de homenagear os amigos de longa data. Apesar da demora, Capitu dá a luz a um lindo menino chamado Ezequiel, como forma de retribuir a homenagem de seus amigos. Os casais passam a criar um laço bem forte e se tornam muito próximos, mas a paz não reina por muito tempo, pois Bento logo começa a perceber a semelhança que há entre seu filho e seu amigo Escobar, este logo faleceu afogado em uma viagem à praia."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha4" />
+    <TextView
+        android:id="@+id/resenha6"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      A preocupação de Bento acerca de uma suposta traição só aumenta,o levando a uma tentativa de homicídio e quase matando seu próprio filho, mas resiste e acaba só por dizer que não é o pai de Ezequiel. A união entre Capitu e Bento não é capaz de suportar tantas brigas e por isso chega ao fim. É feita uma viagem à Europa a fim de encobrir a situação, e logo depois o protagonista retorna ao Brasil, se tornando o tão amargo Dom Casmurro. Capitu morre no exterior e Ezequiel tenta manter relações com o pai, mas este não consegue devido à grande semelhança de seu filho com seu falecido colega. Ezequiel morre com uma febre tifóide em uma viagem à Jerusalém."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha5" />
+    <TextView
+        android:id="@+id/resenha7"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      A obra, escrita por Machado de Assis, te leva a questionar se realmente houve uma traição, deixando o final aberto e sem explicações se isso foi uma utopia de Bentinho ou se  realmente aconteceu. É extremamente interessante e prende o leitor de forma inimaginável."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="50dp" />
+
+    <TextView
+        android:id="@+id/ola"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Olá!"
+        android:textColor="@color/branco"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <TextView
+        android:id="@+id/bem_vindo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ola"
+        android:textColor="@color/branco"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppins"
+        android:text="Seja Bem-vindo(a)" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bem_vindo"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"
+        android:drawableLeft="@drawable/email"
+        android:inputType="textEmailAddress"
+        android:maxLength="50" />
+
+    <View
+        style="@style/Linha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_email"
+        android:layout_marginTop="-5dp"/>
+
+    <EditText
+        android:id="@+id/login_senha"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_email"
+        android:layout_margin="10dp"
+        android:hint="Senha"
+        android:textSize="20dp"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"
+        android:drawableLeft="@drawable/cadeado"
+        android:inputType="textPassword"
+        android:maxLength="50" />
+
+    <View
+        style="@style/Linha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_senha"
+        android:layout_marginTop="-5dp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_senha"
+        android:layout_marginTop="10dp"
+        android:indeterminateTint="@color/branco"
+        android:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/entrar"
+        style="@style/Botao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_senha"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/branco"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/Login" />
+
+    <TextView
+        android:id="@+id/nao_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/entrar"
+        android:layout_margin="20dp"
+        android:textColor="@color/branco"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="Você não possui um cadastro?" />
+
+    <TextView
+        android:id="@+id/cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nao_cadastro"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/roxo"
+        android:textSize="22sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/text_cadastro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".Cadastrar">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/branco"
+        android:textSize="40sp"
+        android:fontFamily="@font/poppins"
+        android:text="Cadastro" />
+
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/explicacao_cad"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        android:layout_margin="10dp"
+        android:textColor="@color/preto"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:text="Vamos realizar o seu cadastro, precisaremos apenas de algumas informações:" />
+
+    <TextView
+        android:id="@+id/info_pessoais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/explicacao_cad"
+        android:layout_margin="10dp"
+        android:textColor="@color/preto"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Informações pessoais" />
+
+    <TextView
+        android:id="@+id/cad_nome"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Nome completo:"
+        android:textColor="@color/preto"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_pessoais" />
+
+    <View
+        style="@style/Cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_nome" />
+
+    <EditText
+        android:id="@+id/entrar_nome"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_nome"
+        android:textSize="18dp"
+        android:textColor="@color/branco"
+        android:inputType="text"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/cad_email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_nome"
+        android:layout_margin="50dp"
+        android:textColor="@color/preto"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:text="E-mail:" />
+
+    <View
+        style="@style/Cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_email" />
+
+    <EditText
+        android:id="@+id/entrar_email"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_email"
+        android:textSize="18dp"
+        android:textColor="@color/branco"
+        android:inputType="textEmailAddress"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/cad_telefone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_email"
+        android:layout_margin="50dp"
+        android:textColor="@color/preto"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:text="Telefone:" />
+
+    <View
+        style="@style/Cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_telefone" />
+
+    <EditText
+        android:id="@+id/entrar_telefone"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_telefone"
+        android:textSize="18dp"
+        android:textColor="@color/branco"
+        android:inputType="phone"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/cad_senha"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_telefone"
+        android:layout_margin="50dp"
+        android:textColor="@color/preto"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:text="Senha:" />
+
+    <TextView
+        android:id="@+id/cad_digitos"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Tamanho: 8 dígitos"
+        android:textColor="@color/vermelho"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_senha" />
+
+    <TextView
+        android:id="@+id/cad_numeros"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_digitos"
+        android:textColor="@color/vermelho"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        android:text="Mínimo: 1 número" />
+
+    <View
+        style="@style/Cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_numeros"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/entrar_senha"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_numeros"
+        android:layout_margin="5dp"
+        android:textSize="18dp"
+        android:textColor="@color/branco"
+        android:inputType="textPassword"
+        android:maxLength="50" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cadastrar"
+        style="@style/Botao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cad_senha"
+        android:layout_marginLeft="190dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="110dp"
+        android:textColor="@color/branco"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/Cadastro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

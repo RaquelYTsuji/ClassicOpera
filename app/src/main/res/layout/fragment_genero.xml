@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".GeneroFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        style="@style/Linha2"/>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        style="@style/Linha2"/>
+
+    <TextView
+        android:id="@+id/genero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins"
+        android:text="Bibliografia"
+        android:textColor="@color/preto"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/memorias"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:src="@drawable/memoriasdebrascubas"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Memórias Póstumas de Brás Cubas"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/autor1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Machado de Assis"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+
+    <ImageView
+        android:id="@+id/diario"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/diarioannefrank" />
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="O Diário de Anne Frank"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/autor2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:text="Anne Frank"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+
+
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        style="@style/Linha2"/>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        style="@style/Linha2"/>
+
+    <TextView
+        android:id="@+id/genero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Contos"
+        android:textColor="@color/preto"
+        android:textSize="25sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="160dp"
+        android:layout_gravity="left" />
+
+    <ImageView
+        android:id="@+id/grim1"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:src="@drawable/contos"
+        android:layout_marginTop="450dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/titulo3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Irmãos Grimm: O Enigma"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="680dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/autor3"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Irmãos Grimm"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:layout_marginTop="730dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+
+    <ImageView
+        android:id="@+id/grim2"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/contos" />
+    <TextView
+        android:id="@+id/titulo4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Irmãos Grimm: O lobo e a Raposa"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/autor4"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:text="Irmãos Grimm"
+        android:layout_marginTop="730dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+
+
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="780dp"
+        style="@style/Linha2"/>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="810dp"
+        style="@style/Linha2"/>
+
+    <TextView
+        android:id="@+id/genero3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Fantasia"
+        android:textColor="@color/preto"
+        android:textSize="25sp"
+        android:layout_marginTop="780dp"
+        android:layout_marginStart="140dp"
+        android:layout_gravity="left" />
+
+    <ImageView
+        android:id="@+id/narnia"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="820dp"
+        android:src="@drawable/cronicasdenarnia" />
+    <TextView
+        android:id="@+id/titulo5"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="As Crônicas de Nárnia"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="1050dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/autor5"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:text="C. S. Lewis"
+        android:layout_marginTop="1100dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left" />
+
+    <ImageView
+        android:id="@+id/magico"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="820dp"
+        android:src="@drawable/magicodeoz" />
+    <TextView
+        android:id="@+id/titulo6"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="O Mágico de Oz"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="1050dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/autor6"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:text="L. Frank Baum"
+        android:layout_marginTop="1070dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+
+
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1150dp"
+        style="@style/Linha2"/>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1180dp"
+        style="@style/Linha2"/>
+
+    <TextView
+        android:id="@+id/genero4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Romance"
+        android:textColor="@color/preto"
+        android:textSize="25sp"
+        android:layout_marginTop="1150dp"
+        android:layout_marginStart="140dp"
+        android:layout_gravity="left" />
+
+    <ImageView
+        android:id="@+id/isaura"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:src="@drawable/escravaisaura"
+        android:layout_marginTop="1190dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/titulo7"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="A Escrava Isaura"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="1420dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/autor7"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:text="Bernardo Guimarães"
+        android:layout_marginTop="1440dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left" />
+
+    <ImageView
+        android:id="@+id/moreninha"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:src="@drawable/moreninha"
+        android:layout_marginTop="1190dp"
+        android:layout_gravity="right" />
+    <TextView
+        android:id="@+id/titulo9"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="A Moreninha"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="1420dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right" />
+    <TextView
+        android:id="@+id/autor9"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:text="Joaquim Manuel de Macedo"
+        android:layout_marginTop="1440dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right" />
+
+    <ImageView
+        android:id="@+id/casmurro"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:src="@drawable/domcasmurro"
+        android:layout_marginTop="1540dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/titulo8"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Dom Casmurro"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="1770dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/autor8"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Machado de Assis"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:layout_marginTop="1790dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+
+    <ImageView
+        android:id="@+id/iracema"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="1540dp"
+        android:src="@drawable/iracema" />
+    <TextView
+        android:id="@+id/titulo10"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Iracema"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="1770dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/autor10"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins"
+        android:text="José de Alencar"
+        android:layout_marginTop="1790dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+
+
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1860dp"
+        style="@style/Linha2"/>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1890dp"
+        style="@style/Linha2"/>
+
+    <TextView
+        android:id="@+id/genero6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Suspense"
+        android:textColor="@color/preto"
+        android:textSize="25sp"
+        android:layout_marginTop="1860dp"
+        android:layout_marginStart="140dp"
+        android:layout_gravity="left" />
+
+    <ImageView
+        android:id="@+id/escaravelho"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:src="@drawable/escaravelhododiabo"
+        android:layout_marginTop="1900dp"
+        android:layout_gravity="left" />
+    <TextView
+        android:id="@+id/titulo11"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="O Escaravelho do Diabo"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="2130dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+    <TextView
+        android:id="@+id/autor11"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Lúcia Machado de Almeida"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:layout_marginTop="2180dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"/>
+
+
+    <ImageView
+        android:id="@+id/misterioso"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:src="@drawable/misteriosocasodestyles"
+        android:layout_marginTop="1900dp"
+        android:layout_gravity="right" />
+    <TextView
+        android:id="@+id/titulo12"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="O Misterioso Caso de Styles"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:layout_marginTop="2130dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/autor12"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Agatha Cristie"
+        android:textColor="@color/preto"
+        android:textSize="14sp"
+        android:layout_marginTop="2180dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right"/>
+
+</FrameLayout>
+</androidx.core.widget.NestedScrollView>

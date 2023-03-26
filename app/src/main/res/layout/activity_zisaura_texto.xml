@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    tools:context=".zIsauraTexto">
+
+    <View
+        style="@style/Fundo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/branco"
+        android:textSize="25sp"
+        android:fontFamily="@font/poppins"
+        android:text="A Escrava Isaura" />
+    <ImageView
+        android:id="@+id/seta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/seta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="340dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/isaura"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/escravaisaura"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/titulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="Título: A Escrava Isaura"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/isaura"
+        app:layout_constraintTop_toBottomOf="@id/titulo" />
+    <TextView
+        android:id="@+id/autor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/isaura"
+        app:layout_constraintTop_toBottomOf="@id/titulo1"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Autor: Bernardo Guimarães"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/resenha1"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="      Isaura é fruto da relação entre uma escrava e um capataz português. Nascer branca não lhe poupou da condição de prisioneira, mas sua beleza saltou aos olhos da dona da casa e ela foi criada longe da senzala, com zelo, mimo e boa educação. Após a morte de seus proprietários, Isaura não fora alforriada, como bem queria sua senhora, e virou alvo da paixão obcecada do herdeiro Leôncio, que não pretende poupar esforços — ou violência — para seduzir a garota infortunada. Diante da situação, Isaura e o pai não veem outra solução senão fugir da fazenda."
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/isaura" />
+    <TextView
+        android:id="@+id/resenha2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="      No Brasil em plena campanha abolicionista, A Escrava Isaura expõe sem receios a sociedade elitista que dança nos bailes da cidade. A jovem escrava tem o privilégio de nascer branca e isso desde já lhe proporciona algumas vantagens, como ser tratada com menos rigor, e dentro de casa, como se da família fosse, pelos patrões. Sua beleza, seus gestos doces, seus talentos e características de boa moça a fazem ser julgada como uma princesa, mas basta chegar ao conhecimento do observador que se trata de uma escrava que não demora a ter sua estima rebaixada — a menos pelos homens, é claro, que não deixam um simples detalhe como esse abafar o desejo de tê-la a qualquer custo." />
+    <TextView
+        android:id="@+id/resenha3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="      Leôncio, marido de Malvina, desrespeita a vontade da mãe e não liberta Isaura, pelo contrário, abusa da sua condição para assediá-la e ameaçá-la, usando dela como se fosse um mero objeto feito para satisfazer suas vontades a bem-querer. Miguel, pai de Isaura e ex-capataz da fazenda de Leôncio, trama um plano de fuga para livrar a filha do carrasco, arriscando viver escondido com ela pelo resto da vida, já que era contra lei roubar escravos ou ajudá-los a fugir. Em Recife, nova morada dos dois, Isaura conhece Álvaro, um moço distinto e bem-visto na sociedade. Apaixonado, ele logo insiste para levá-la ao baile, onde Isaura torna-se alvo de todos os olhares e comentários. Receosa de que descubram a verdade, ela treme ao menor gesto suspeito, mas o recíproco sentimento por Álvaro faz valer a pena o risco."/>
+    <TextView
+        android:id="@+id/resenha4"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenha3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/preto"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:text="      Eu gostei de como a estrutura do texto foi formada  e de mesmo da obra ter sido feita no século XIX ainda é possível compreender a mensagem que o escritor deseja passar, a linguagem não se torna cansativa ou incompreensível."/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    tools:context=".Menu"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/classic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/alike"
+        android:text="CLASSIC OPERA"
+        android:textColor="@color/branco"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/classic1"
+        style="@style/Linha" />
+
+    <ImageView
+        android:id="@+id/livro2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/livro2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/classic1"
+        android:layout_marginTop="40dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/genero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/livro2"
+        android:textColor="@color/branco"
+        android:textSize="35sp"
+        android:fontFamily="@font/poppins"
+        android:text="Tema" />
+
+    <ImageView
+        android:id="@+id/soma"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/soma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/genero"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/saiba_mais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soma"
+        android:textColor="@color/branco"
+        android:textSize="35sp"
+        android:fontFamily="@font/poppins"
+        android:text="Saiba Mais" />
+
+    <ImageView
+        android:id="@+id/empresa"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/empresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saiba_mais"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/sabre_empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empresa"
+        android:textColor="@color/branco"
+        android:textSize="35sp"
+        android:fontFamily="@font/poppins"
+        android:text="Sobre a empresa" />
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/Linha"/>
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home"
+        android:layout_marginRight="220dp"
+        android:layout_marginBottom="5dp"
+        android:title="@string/bottommenu_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/busca"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/busca"
+        android:title="@string/bottommenu_busca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/seuperfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/pessoa"
+        android:title="@string/bottommenu_pessoa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
